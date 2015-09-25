@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E24E1EAA-6F9F-4C25-87B7-652ED754E2D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A453110F-0073-47BA-A1CB-7E657D0F63EB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WeMoWeb", "src\WeMoWeb\WeMoWeb.xproj", "{C575CBA2-3C41-4C49-812D-A6DEC09B4470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeMoLib", "src\WeMoLib\WeMoLib.csproj", "{7FD1CDC2-30B5-43A6-A764-6A42F185BAB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C575CBA2-3C41-4C49-812D-A6DEC09B4470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C575CBA2-3C41-4C49-812D-A6DEC09B4470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C575CBA2-3C41-4C49-812D-A6DEC09B4470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C575CBA2-3C41-4C49-812D-A6DEC09B4470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD1CDC2-30B5-43A6-A764-6A42F185BAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD1CDC2-30B5-43A6-A764-6A42F185BAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD1CDC2-30B5-43A6-A764-6A42F185BAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD1CDC2-30B5-43A6-A764-6A42F185BAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C575CBA2-3C41-4C49-812D-A6DEC09B4470} = {E24E1EAA-6F9F-4C25-87B7-652ED754E2D8}
+		{7FD1CDC2-30B5-43A6-A764-6A42F185BAB8} = {E24E1EAA-6F9F-4C25-87B7-652ED754E2D8}
+	EndGlobalSection
+EndGlobal

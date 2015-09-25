@@ -1,0 +1,6 @@
+.vs/
+artifacts/
+wrap/
+bin/
+obj/
+*.lock.json
